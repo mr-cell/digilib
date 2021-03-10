@@ -1,0 +1,5 @@
+.gradle/
+gradle/
+.gitignore/
+gradlew
+gradlew.bat
