@@ -46,7 +46,7 @@ jobs:
   # See also https://docs.docker.com/docker-hub/builds/
   publish:
     # Ensure test job passes before pushing image.
-    needs: test
+    needs: build
 
     runs-on: ubuntu-latest
 
